@@ -1,0 +1,67 @@
+name: pages_-_pricing
+timestamp: 1562905228
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1478643075
+positions:
+  sidebar: Sidebar
+  aside: Aside
+sections:
+  top: Top
+  navigation: Navigation
+  slideshow: Slideshow
+  above: Above
+  showcase: Showcase
+  utility: Utility
+  feature: Feature
+  expanded: Expanded
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  header: Header
+  sidebar: Sidebar
+  aside: Aside
+  mainbar: Main
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  simplecontent:
+    simplecontent-8792: 'Header - Pricing'
+  pricingtable:
+    pricingtable-1308: 'Pricing - Pricing Table'
+  messages:
+    system-messages-4875: 'System Messages'
+  logo:
+    logo-3762: Logo
+  menu:
+    menu-8738: Menu
+  shoppingcart:
+    shoppingcart-7935: 'Shopping Cart'
+  position:
+    position-position-6303: Sidebar
+    position-position-1543: Aside
+  simplemenu:
+    simplemenu-8476: 'Bottom Menu'
+  branding:
+    branding-5834: Branding
+  mobile-menu:
+    mobile-menu-6566: Mobile-menu
+inherit:
+  default:
+    top: top
+    navigation: navigation
+    sidebar: sidebar
+    aside: aside
+    copyright: copyright
+    offcanvas: offcanvas
+    system-messages-4875: system-messages-9828
+    logo-3762: logo-5992
+    menu-8738: menu-4196
+    shoppingcart-7935: shoppingcart-5200
+    position-position-6303: position-position-8538
+    position-position-1543: position-position-8807
+    simplemenu-8476: simplemenu-6826
+    branding-5834: branding-9192
+    mobile-menu-6566: mobile-menu-7951

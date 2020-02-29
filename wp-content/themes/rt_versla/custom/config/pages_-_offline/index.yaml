@@ -1,0 +1,69 @@
+name: pages_-_offline
+timestamp: 1562905228
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1478643075
+positions:
+  sidebar: Sidebar
+  aside: Aside
+sections:
+  top: Top
+  navigation: Navigation
+  slideshow: Slideshow
+  above: Above
+  showcase: Showcase
+  utility: Utility
+  feature: Feature
+  expanded: Expanded
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  header: Header
+  sidebar: Sidebar
+  aside: Aside
+  mainbar: Main
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  simplecontent:
+    simplecontent-2045: 'Header - Offline'
+  content:
+    system-content-1120: 'Page Content'
+  custom:
+    custom-5214: 'Make your WordPress offline'
+  messages:
+    system-messages-7252: 'System Messages'
+  logo:
+    logo-1163: Logo
+  menu:
+    menu-7746: Menu
+  shoppingcart:
+    shoppingcart-5383: 'Shopping Cart'
+  position:
+    position-position-1195: Sidebar
+    position-position-8887: Aside
+  simplemenu:
+    simplemenu-7356: 'Bottom Menu'
+  branding:
+    branding-4845: Branding
+  mobile-menu:
+    mobile-menu-8921: Mobile-menu
+inherit:
+  default:
+    top: top
+    navigation: navigation
+    sidebar: sidebar
+    aside: aside
+    copyright: copyright
+    offcanvas: offcanvas
+    system-messages-7252: system-messages-9828
+    logo-1163: logo-5992
+    menu-7746: menu-4196
+    shoppingcart-5383: shoppingcart-5200
+    position-position-1195: position-position-8538
+    position-position-8887: position-position-8807
+    simplemenu-7356: simplemenu-6826
+    branding-4845: branding-9192
+    mobile-menu-8921: mobile-menu-7951

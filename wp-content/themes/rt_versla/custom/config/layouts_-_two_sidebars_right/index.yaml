@@ -1,0 +1,70 @@
+name: layouts_-_two_sidebars_right
+timestamp: 1562905228
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1457353897
+positions: {  }
+sections:
+  top: Top
+  navigation: Navigation
+  slideshow: Slideshow
+  above: Above
+  showcase: Showcase
+  utility: Utility
+  feature: Feature
+  mainbar: Mainbar
+  sidebar: Sidebar
+  expanded: Expanded
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  header: Header
+  aside: Aside
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  simplecontent:
+    simplecontent-7561: 'Two Sidebars Right Example'
+  custom:
+    custom-8235: 'H2 Heading'
+    custom-7406: 'Left Sidebar'
+    custom-6562: 'Custom HTML'
+    custom-9224: 'Right Sidebar'
+  messages:
+    system-messages-2740: 'System Messages'
+  logo:
+    logo-9444: Logo
+  menu:
+    menu-2278: Menu
+  shoppingcart:
+    shoppingcart-5593: 'Shopping Cart'
+  simplemenu:
+    simplemenu-1701: 'Bottom Menu'
+  branding:
+    branding-6680: Branding
+  mobile-menu:
+    mobile-menu-3688: Mobile-menu
+inherit:
+  default:
+    top: top
+    navigation: navigation
+    header: header
+    above: above
+    showcase: showcase
+    utility: utility
+    feature: feature
+    expanded: expanded
+    extension: extension
+    bottom: bottom
+    footer: footer
+    copyright: copyright
+    offcanvas: offcanvas
+    system-messages-2740: system-messages-9828
+    logo-9444: logo-5992
+    menu-2278: menu-4196
+    shoppingcart-5593: shoppingcart-5200
+    simplemenu-1701: simplemenu-6826
+    branding-6680: branding-9192
+    mobile-menu-3688: mobile-menu-7951

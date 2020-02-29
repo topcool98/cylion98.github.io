@@ -1,0 +1,70 @@
+name: features_-_overview
+timestamp: 1562905228
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1478643075
+positions:
+  sidebar: Sidebar
+  aside: Aside
+sections:
+  top: Top
+  navigation: Navigation
+  slideshow: Slideshow
+  above: Above
+  showcase: Showcase
+  utility: Utility
+  feature: Feature
+  expanded: Expanded
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  header: Header
+  sidebar: Sidebar
+  aside: Aside
+  mainbar: Main
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  simplecontent:
+    simplecontent-7375: 'Features - Overview'
+  pricingtable:
+    pricingtable-4345: 'Features - Features List'
+  infolist:
+    infolist-3299: 'Features - Gantry 5 Core Features'
+    infolist-8435: 'Features - System Requirements'
+  messages:
+    system-messages-9141: 'System Messages'
+  logo:
+    logo-1952: Logo
+  menu:
+    menu-7056: Menu
+  shoppingcart:
+    shoppingcart-5743: 'Shopping Cart'
+  position:
+    position-position-6499: Sidebar
+    position-position-7238: Aside
+  simplemenu:
+    simplemenu-6967: 'Bottom Menu'
+  branding:
+    branding-1314: Branding
+  mobile-menu:
+    mobile-menu-7830: Mobile-menu
+inherit:
+  default:
+    top: top
+    navigation: navigation
+    sidebar: sidebar
+    aside: aside
+    copyright: copyright
+    offcanvas: offcanvas
+    system-messages-9141: system-messages-9828
+    logo-1952: logo-5992
+    menu-7056: menu-4196
+    shoppingcart-5743: shoppingcart-5200
+    position-position-6499: position-position-8538
+    position-position-7238: position-position-8807
+    simplemenu-6967: simplemenu-6826
+    branding-1314: branding-9192
+    mobile-menu-7830: mobile-menu-7951
