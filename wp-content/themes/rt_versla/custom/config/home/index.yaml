@@ -1,0 +1,65 @@
+name: home
+timestamp: 1582966292
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1582965243
+positions: {  }
+sections:
+  top: Top
+  navigation: Navigation
+  slideshow: Slideshow
+  above: Above
+  feature: Feature
+  expanded: Expanded
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  header: Header
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  simplecontent:
+    simplecontent-7077: 'Simple Content'
+    simplecontent-6429: 'Simple Content'
+    simplecontent-9567: 'Get the latest product updates in your inbox!'
+  owlshowcase:
+    owlshowcase-7890: 'Owl Showcase'
+  productlist:
+    productlist-8300: 'Product List'
+  infolist:
+    infolist-3806: 'Info List'
+  owlpreview:
+    owlpreview-1055: 'Owl Preview'
+  custom:
+    custom-5911: 'Custom HTML'
+  newsletter:
+    newsletter-3789: Newsletter
+  messages:
+    system-messages-1754: 'System Messages'
+  logo:
+    logo-1878: Logo
+  menu:
+    menu-7903: Menu
+  shoppingcart:
+    shoppingcart-9374: 'Shopping Cart'
+  simplemenu:
+    simplemenu-2666: 'Bottom Menu'
+  branding:
+    branding-7633: Branding
+  mobile-menu:
+    mobile-menu-6361: Mobile-menu
+inherit:
+  default:
+    top: top
+    navigation: navigation
+    copyright: copyright
+    offcanvas: offcanvas
+    system-messages-1754: system-messages-9828
+    logo-1878: logo-5992
+    menu-7903: menu-4196
+    shoppingcart-9374: shoppingcart-5200
+    simplemenu-2666: simplemenu-6826
+    branding-7633: branding-9192
+    mobile-menu-6361: mobile-menu-7951
