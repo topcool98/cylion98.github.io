@@ -1,0 +1,68 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+    {% if particle.source and particle.source == 'wordpress' %}
+        {# Load Content From WordPress #}
+        {% set query_parameters = {
+            'cat': particle.wpcategories|replace(' ', ','),
+            'posts_per_page': particle.wpposts|default('-1'),
+            'offset': '0',
+            'orderby': 'date',
+            'order': 'DESC',
+            'ignore_sticky_posts': true
+        } %}
+
+        {% set items = wordpress.query_posts(query_parameters) %}
+    {% else %}
+        {# Load Content From Particle #}
+        {% set items = particle.items %}
+    {% endif %}
+
+    <div class="{{ particle.class|e }}">
+        {% if particle.title %}<h2 class="g-title">{{ particle.title|raw }}</h2>{% endif %}
+        <ul class="accordion" id="{{ id }}" data-accordion-id="{{ id }}">
+
+            {% for item in items %}
+                <li id="accordion-id{{ loop.index }}">
+                    {% if particle.source and particle.source == 'wordpress' %}
+                        <div class="accordion-item-title">{{ item.title }}
+                            <div class="toggle"><i class="fa fa-plus"></i></div>
+                        </div>
+                        <div class="accordion-item-content">
+                            {% if particle.wpcontenttype == 'excerpt' %}
+                                {{ item.post_excerpt|raw }}
+                            {% else %}
+                                {{ item.content|raw }}
+                            {% endif %}
+                            {% if particle.wplink == 'enabled' and item.link %}
+                                <br /><br />
+                                <span class="accor-button">
+                                    <a target="_self" href="{{ item.link|e }}" title="{{ particle.wplinktext|e }}" class="button">{{ particle.wplinktext|e }}</a>
+                                </span>
+                            {% endif %}
+                        </div>
+                    {% else %}
+                        <div class="accordion-item-title">{{ item.title }}
+                            <div class="toggle"><i class="fa fa-plus"></i></div>
+                        </div>
+                        <div class="accordion-item-content">
+                            {{ item.desc|raw }}
+                            {% if item.buttontext %}
+                                <br /><br />
+                                <span class="accor-button">
+                                    <a target="{{ item.buttontarget|default('_self')|e }}" href="{{ item.buttonlink|e }}" title="{{ item.buttontext|e }}" class="button {{ item.buttonclass|e }}">{{ item.buttontext|e }}</a>
+                                </span>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                </li>
+            {% endfor %}
+
+        </ul>
+    </div>
+{% endblock %}
+
+{% block javascript_footer %}
+{% do gantry.load('jquery') %}
+<script src="{{ url('gantry-theme://js/accordion.init.js') }}"></script>
+{% endblock %}

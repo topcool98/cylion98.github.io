@@ -1,0 +1,8 @@
+enabled: '1'
+presets: disabled
+lazyload: enabled
+animateIn: fadeIn
+animateOut: fadeOut
+dots: enabled
+autoplay: disabled
+pauseOnHover: enabled

@@ -1,0 +1,67 @@
+name: features_-_typography
+timestamp: 1583044112
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1478643075
+positions:
+  sidebar: Sidebar
+  aside: Aside
+sections:
+  top: Top
+  navigation: Navigation
+  slideshow: Slideshow
+  above: Above
+  showcase: Showcase
+  utility: Utility
+  feature: Feature
+  expanded: Expanded
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  header: Header
+  sidebar: Sidebar
+  aside: Aside
+  mainbar: Main
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  simplecontent:
+    simplecontent-1637: 'Header - Typography'
+  content:
+    system-content-1120: 'Page Content'
+  messages:
+    system-messages-6160: 'System Messages'
+  logo:
+    logo-3587: Logo
+  menu:
+    menu-2834: Menu
+  shoppingcart:
+    shoppingcart-8308: 'Shopping Cart'
+  position:
+    position-position-1565: Sidebar
+    position-position-8559: Aside
+  simplemenu:
+    simplemenu-3513: 'Bottom Menu'
+  branding:
+    branding-6618: Branding
+  mobile-menu:
+    mobile-menu-2683: Mobile-menu
+inherit:
+  default:
+    top: top
+    navigation: navigation
+    sidebar: sidebar
+    aside: aside
+    copyright: copyright
+    offcanvas: offcanvas
+    system-messages-6160: system-messages-9828
+    logo-3587: logo-5992
+    menu-2834: menu-4196
+    shoppingcart-8308: shoppingcart-5200
+    position-position-1565: position-position-8538
+    position-position-8559: position-position-8807
+    simplemenu-3513: simplemenu-6826
+    branding-6618: branding-9192
+    mobile-menu-2683: mobile-menu-7951

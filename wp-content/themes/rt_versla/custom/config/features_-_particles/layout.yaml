@@ -1,0 +1,213 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1477473229
+layout:
+  top: {  }
+  /navigation/: {  }
+  slideshow:
+    -
+      - simplecontent-6795
+    -
+      - owlshowcase-6305
+  header:
+    -
+      - simplecontent-4973
+    -
+      - productlist-5988
+  above:
+    -
+      - simplecontent-3597
+    -
+      - infolist-4926
+  feature:
+    -
+      - simplecontent-7518
+    -
+      - owlpreview-1172
+  /expanded/: {  }
+  extension: {  }
+  bottom: {  }
+  /footer/: {  }
+  copyright: {  }
+  offcanvas: {  }
+structure:
+  top:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  navigation:
+    type: section
+    attributes:
+      boxed: '3'
+      class: fp-navigation
+    inherit:
+      outline: default
+      include:
+        - children
+  slideshow:
+    type: section
+    inherit:
+      outline: home_-_particles
+      include:
+        - attributes
+  header:
+    inherit:
+      outline: home_-_particles
+      include:
+        - attributes
+  above:
+    type: section
+    inherit:
+      outline: home_-_particles
+      include:
+        - attributes
+  feature:
+    type: section
+    inherit:
+      outline: home_-_particles
+      include:
+        - attributes
+  expanded:
+    type: section
+    attributes:
+      boxed: '3'
+      class: fp-expanded-homeparticles
+  extension:
+    type: section
+  bottom:
+    type: section
+  footer:
+    attributes:
+      boxed: '3'
+      class: ''
+  copyright:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  simplecontent-6795:
+    title: 'Particle - Owl Showcase'
+    attributes:
+      class: ''
+      title: ''
+      items:
+        -
+          layout: header
+          created_date: ''
+          content_title: 'Particle - Owl Showcase'
+          author: ''
+          leading_content: ''
+          main_content: ''
+          readmore_label: ''
+          readmore_link: ''
+          readmore_class: ''
+          readmore_target: _self
+          title: 'What our customers think'
+    block:
+      variations: title6
+  owlshowcase-6305:
+    title: 'Owl Showcase'
+    inherit:
+      outline: home_-_particles
+      particle: owlshowcase-7890
+      include:
+        - attributes
+        - block
+  simplecontent-4973:
+    title: 'Particle - Product List'
+    attributes:
+      class: ''
+      title: ''
+      items:
+        -
+          layout: header
+          created_date: ''
+          content_title: 'Particle - Product List'
+          author: ''
+          leading_content: ''
+          main_content: ''
+          readmore_label: ''
+          readmore_link: ''
+          readmore_class: ''
+          readmore_target: _self
+          title: 'Particle - Product List'
+    block:
+      variations: 'center title6'
+  productlist-5988:
+    title: 'Product List'
+    inherit:
+      outline: home_-_particles
+      particle: productlist-8300
+      include:
+        - attributes
+        - block
+  simplecontent-3597:
+    title: 'Particle - Infolist'
+    attributes:
+      class: ''
+      title: ''
+      items:
+        -
+          layout: header
+          created_date: ''
+          content_title: 'Particle - Infolist'
+          author: ''
+          leading_content: ''
+          main_content: ''
+          readmore_label: ''
+          readmore_link: ''
+          readmore_class: ''
+          readmore_target: _self
+          title: 'Particle - Infolist'
+    block:
+      variations: 'title6 center'
+  infolist-4926:
+    title: 'Info List'
+    inherit:
+      outline: home_-_particles
+      particle: infolist-3806
+      include:
+        - attributes
+        - block
+  simplecontent-7518:
+    title: 'Particle - Owl Preview'
+    attributes:
+      class: ''
+      title: ''
+      items:
+        -
+          layout: header
+          created_date: ''
+          content_title: 'Particle - Owl Preview'
+          author: ''
+          leading_content: ''
+          main_content: ''
+          readmore_label: ''
+          readmore_link: ''
+          readmore_class: ''
+          readmore_target: _self
+          title: 'Particle - Owl Preview'
+    block:
+      variations: 'center title6'
+  owlpreview-1172:
+    title: 'Owl Preview'
+    inherit:
+      outline: home_-_particles
+      particle: owlpreview-1055
+      include:
+        - attributes
+        - block
